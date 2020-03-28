@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>POKE EXPRESS</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/styles.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"> -->
+  </head>
+  <body>
+    <!-- start pokedex -->
+    <div class="pokedex-container">
+      <!-- pokedex header -->
+      <div class="pokedex-header">
+        <!-- decoration buttons -->
+        <div class="large-button"></div>
+        <div class="small-buttons one"></div>
+        <div class="small-buttons two"></div>
+        <div class="small-buttons three"></div>
+        <!-- header text -->
+        <div class="header-text">
+          <h1>GOTTA CATCH 'EM ALL!</h1>
+        </div>
+      </div>
+      <!-- pokedex content -->
+      <div class="pokedex-content">
+        <ul>
+          <% for(i = 0; i < pokemon.length; i++) { %>
+            <li> <a href="/pokemon/<%=i%>"><%= pokemon[i].name %></a>
+          <% } %>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

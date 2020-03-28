@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><%= bottlesRemaining%> Beers</title>
+  </head>
+  <body>
+    <% if(bottlesRemaining == 0){ %>
+      <a href="/">No more beer. Get moar beer!</a>
+    <%  } else { %>
+    <h1><%= bottlesRemaining%> Beers</h1>
+    <a href="<%= bottlesRemaining -1%>">take one down and pass it around</a>
+    <% }%>
+
+  </body>
+</html>

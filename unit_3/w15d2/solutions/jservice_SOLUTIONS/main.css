@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Ubuntu+Mono');
+
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  background: #3D5E73;
+  color: #F7F7FF;
+  text-align: center;
+
+}
+
+h1{
+  font-family: 'Ubuntu Mono', monospace;
+  color: #F7F7FF;
+  font-size: 3em;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+span {
+  color: #EAD27A;
+  font-size: 1.5em;
+}
+
+button {
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+  margin-right: 3%;
+}
+
+.scoreboard {
+  width: 50%;
+  margin: auto;
+}
+
+.increase{
+  background: #6191b5;
+}
+.decrease {
+  background: #FE938C;
+}
+
+.reset {
+  background: #E71D36;
+}
+
+.question-button {
+  background: #EAD27A;
+  color: #3D5E73;
+}
+
+.reveal {
+  padding: 1em;
+  background: #1B264f;
+  width: 50%;
+  margin: auto;
+}
+
+.play{
+  width: 60%;
+  margin: auto;
+}

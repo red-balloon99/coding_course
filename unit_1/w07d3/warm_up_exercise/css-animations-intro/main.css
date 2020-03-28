@@ -1,0 +1,71 @@
+/*************************
+* General
+*************************/
+
+body {
+  background: ghostwhite;
+}
+
+.container {
+  width: 90%;
+  margin:auto;
+  border: 1px solid gold;
+  margin-top: 2.5em;
+}
+
+.demo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+/*************************
+* Transform
+*************************/
+
+.transform {
+  background-color: thistle;
+}
+
+
+/*************************
+* Transition
+*************************/
+
+.transition {
+  background: red;
+}
+
+.transition:hover {
+  background:  blue;
+}
+
+/*************************
+* Animation
+*************************/
+
+.animation {
+  background: black;
+  position: relative;
+}
+
+
+/*simple start*/
+@keyframes black-to-white {
+
+}
+
+/*just colors*/
+@keyframes rainbow {
+
+}
+
+/*colors and movement*/
+@keyframes rainbow-move {
+
+}
+
+/*colors, movement and rotation*/
+@keyframes rainbow-move-change {
+
+}
